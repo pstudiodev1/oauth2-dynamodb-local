@@ -1,0 +1,10 @@
+RUN DynamoDB with Docker
+#docker run -p 8000:8000 amazon/dynamodb-local
+
+DynamoDB admin
+#npm install -g dynamodb-admin
+#export DYNAMO_ENDPOINT=http://localhost:8000
+#dynamodb-admin
+
+AWS Configure
+#aws configure
